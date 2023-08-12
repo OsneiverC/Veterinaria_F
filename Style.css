@@ -1,0 +1,442 @@
+/* ELEMENTOS GLOBALES */
+*{
+    padding: 0;
+    margin:0;
+    font-family: poppins;
+}
+img {width: 100%;}
+a{text-decoration: none;}
+ul{
+    list-style: none;
+    display: flex;
+}
+li{
+    padding: 0 15px;
+    font-size: 20px;
+}
+i{
+    color: #FFC500;
+    font-size: 30px;
+    margin: 0 5px;
+}
+/* HEADER */
+header{
+    background-color: #E9AD00;
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo{
+    width: 15%;
+}
+.barra_temp{
+    width: 200px;
+}
+
+nav a {
+    color: aliceblue;
+}
+/* SECCION 1 (PRESENTACION) */
+.seccion_1{
+    background-color: #FFC500;
+    padding: 70px 70px 0 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.text{
+    width: 50%;
+}
+
+.seccion_1 h1{
+    color: aliceblue;
+    font-size: 70px;
+}
+
+.seccion_1 p{
+    color: aliceblue;
+    width: 83%;
+    font-size: 20px;
+    padding: 30px 0;
+}
+
+.dog{
+    width: 30%;
+}
+
+.btt1{
+    background-color: #00BFCB;
+    color: aliceblue;
+    font-size: 20px;
+    display: inline-block;
+    padding:  15px 25px;
+    border-radius: 8px;
+}
+
+.btt2{
+    background-color: transparent;
+    color: aliceblue;
+    border: 2px solid #ffff;
+    font-size: 20px;
+    display: inline-block;
+    padding:  15px 25px;
+    border-radius: 8px;
+    margin-left: 42PX;
+}
+
+/* SECCION 2 */
+.seccion_2{
+    padding: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.amoranimal{
+    width: 50%;
+}
+.seccion_2 h3 {
+    font-size: 50px;
+}
+.seccion_2 p {
+    font-size: 22px;
+    width: 90%;
+    padding: 40px 0;
+}
+.btt3{
+    background-color: #FFC500;
+    color: aliceblue;
+    border: 2px solid #ffff;
+    font-size: 20px;
+    display: inline-block;
+    padding:  15px 25px;
+    border-radius: 8px;
+}
+
+.amarillo{
+    width: 180px;
+    height: 180px;
+    background-color: #FFC500;
+    position: absolute;
+    margin: 22% 0 0 -31px;
+    z-index: -1;
+}
+
+.perro_2{
+    width: 507px;
+    height: 480px;
+    background-color: rgba(255,173,0,0.6);
+    background-image:linear-gradient(rgba(255,173,0,0.6),rgba(255,173,0,0.6)), url(Imagenes/dog_2.png);
+}
+
+/* SECCION 3 */
+.seccion_3{
+    background-color: #FFC500;
+    color: aliceblue;
+    padding: 20px 0;
+}
+.int{
+    margin-bottom: 40px;
+}
+.int h2 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.int p {
+    text-align: center;
+    margin: 0 33%;
+}
+
+
+.cartas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    
+}
+
+.carta{
+    width: 300px;
+}
+
+.carta h3 {
+    text-align: center;
+    font-size: 23px;
+    padding: 15px;
+}
+.carta p {
+    text-align: center;
+   
+    
+}
+
+.img_dog{
+    margin: 0 auto;
+}
+
+/* SECCION 4 (PARECIDDA A LA SECCION 2) */
+
+.seccion_4{
+    display: flex;
+    padding: 70px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_2{
+    width: 50%;
+}
+
+.dog_3{
+    width: 507px;
+    height: 480px;
+    background-color: rgba(255,173,0,0.6);
+    background-image:linear-gradient(rgba(255,173,0,0.6),rgba(255,173,0,0.6)), url(Imagenes/25465155.jpg);
+}
+
+.cuadro_amarillo{
+    width: 180px;
+    height: 180px;
+    background-color: #FFC500;
+    position: absolute;
+    margin: 22% 0 0 24%;
+    z-index: -1;
+}
+
+/* SEGUNDO APARTADO */
+.text_2 h3{
+    font-size: 50px;
+    text-align: right;
+    margin-left: 30%;
+    display: inline-block;
+}
+
+.text_2 p{
+    font-size: 30px;
+    text-align: right;
+    margin-left: 30%;
+    padding: 20px 0;
+}
+
+.btt4{
+    background-color: #FFC500;
+    color: aliceblue;
+    border: 2px solid #ffff;
+    font-size: 20px;
+    display: inline-block;
+    padding:  15px 25px;
+    border-radius: 8px;
+    margin-left: 80%;
+}
+
+
+/* SECCION 5 COMPRA DE CACHORROS */
+
+.seccion_5{
+    background-color: #FFC500;
+    padding: 20px 0;
+}
+
+.seccion_5 h3{
+    text-align: center;
+    font-size: 50px;
+    color: aliceblue;
+}
+
+.seccion_5 p{
+    text-align: center;
+    font-size: 20px;
+    margin: 30px 35%;
+    color: aliceblue;
+}
+
+.tachar{
+    text-decoration: line-through;
+}
+
+.seccion_5 .carta h3 {
+    color: aliceblue;
+}
+
+.btt_compra{
+    background-color: #00bec9;
+    padding: 10px;
+    border-radius: 50px;
+    text-align: center;
+    margin: 0 60px;
+}
+
+/* SECCION 6 PRESENTACION DE DOCTORAS */
+
+.seccion_6{
+    padding: 100px;
+}
+
+.seccion_6 h3{
+    text-align: center;
+    font-size: 50px;
+
+}
+
+.seccion_6 p{
+    text-align: center;
+    font-size: 25px;
+    margin: 30px 25%;
+
+}
+
+.seccion_6 .carta h3 {
+    font-size: 30px;
+}
+
+.seccion_6 .carta h6 {
+    font-size: 15px;
+    text-align: center;
+}
+
+.icon_redes{
+    margin: 10px 0;
+    text-align: center;
+}
+
+/* SECCION 7 BANNER DE ICONOS */
+
+.seccion_7{
+    background-image:linear-gradient(rgba(255,173,0,0.6),rgba(255,173,0,0.6)), url(Imagenes/1254748.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon_enfermeria{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 300px;
+}
+.icon_banner{
+    width: 60px;
+    margin: 0 auto;
+}
+
+
+.seccion_7 h3 {
+    font-size: 27px;
+    color: aliceblue;
+}
+
+.seccion_7 h5{
+    text-align: center;
+    font-size: 25px;
+    color: aliceblue;
+}
+
+/* SECCION 8 CUIDADO ANIMAL */
+
+.seccion_8{
+    padding: 40px 0 80px 0;
+}
+
+.seccion_8 h3 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.seccion_8 p {
+    text-align: center;
+    font-size: 25px;
+    margin: 30px 25%;
+}
+
+.seccion_8 .carta p {
+    margin: 0;
+    font-size: 15px;
+    text-align: left;
+    line-height: 105%;
+    margin: 14px 0;
+}
+
+
+.seccion_8 .carta h4 {
+ font-size: 20px;
+}
+
+.seccion_8 .carta h5 {
+    color: #00bec9;
+    font-size: 14px;
+}
+
+.seccion_8 .carta h6 {
+    color: #00bec9;
+    font-size: 12px;
+}
+
+.seccion_8 .carta {
+    box-shadow: 1px 1px 10px;
+}
+
+.ptt{
+    padding: 10px;
+}
+
+/* FOOTER PIE DE PAGUINA */
+
+footer {
+    background-color: #333333;
+    padding: 40px;
+    display: grid;
+    grid-template-columns: 30% 30% 40%;
+    color: aliceblue;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: column;
+}
+
+footer li{
+    width: 100%;
+}
+
+footer h4, h3{
+    font-size: 28px;
+}
+
+.final{
+    display: flex;
+    justify-content: right;
+    flex-direction: column;
+   
+}
+.final h3{
+    text-align: right;
+    font-size: 40px;
+    
+}
+.final p{
+    text-align: right;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.icon_footer{
+    text-align: right;
+    margin: 20px 0;
+    
+}
+
+.icon_footer i{
+    color: aliceblue;
+}
+
+.barra {
+    width: 60%;
+    margin-left: 40%;
+    
+}
